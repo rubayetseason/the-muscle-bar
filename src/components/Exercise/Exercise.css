@@ -1,0 +1,31 @@
+.item-img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.center {
+    text-align: center;
+}
+.item {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgray;
+}
+.btn {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px ;
+    font-weight: 600;
+   font-size: medium;
+   transition: 0.1s;
+}
+.btn:hover {
+    background-color: red;
+}
