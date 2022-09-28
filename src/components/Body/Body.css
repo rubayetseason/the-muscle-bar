@@ -1,0 +1,10 @@
+.body-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.logo{
+    color: red;
+}
+.logopic{
+    width: 100px;
+}
