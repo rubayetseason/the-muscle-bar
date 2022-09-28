@@ -50,6 +50,7 @@ const Body = () => {
 
                     </div>
                 </div>
+                <h3 className='margin2'>Add A Break</h3>
             </div>
         </div>
     );

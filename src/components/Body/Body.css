@@ -32,6 +32,9 @@
 .margin {
     margin: 0;
 }
+.margin2 {
+    margin: 25px 10px;
+}
 .user-img {
     width: 60px;
     border-radius: 50px;
