@@ -24,8 +24,9 @@
     padding: 10px 15px ;
     font-weight: 600;
    font-size: medium;
-   transition: 0.1s;
+   cursor: pointer;
+   transition: 0.5s;
 }
 .btn:hover {
-    background-color: red;
+    background-color: #FF5252;
 }

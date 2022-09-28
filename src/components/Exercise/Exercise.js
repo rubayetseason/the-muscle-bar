@@ -1,10 +1,12 @@
 import React from 'react';
 import './Exercise.css'
+
+
 const Exercise = (props) => {
     const {exercise} = props;
     const {name, img, descp, time} = exercise;
     return (
-        <div className='item'>
+        <div className='item' data-aos="fade-up">
             <img src={img} className="item-img" />
             <h2 className='center'>{name}</h2>
             <p>{descp.slice(0, 80)}...</p>
