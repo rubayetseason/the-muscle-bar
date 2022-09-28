@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Push Up",
+    "img": "https://images.unsplash.com/photo-1619987767073-fffdaa776ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHVzaCUyMHVwfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "Pushups are an exercise in which keeping a prone position, with the hands palms down under the shoulders, and the back straight, pushes the body up and lets it down by an alternate straightening and bending of the arms.",
+    "time": 10
+  },
+  {
+    "id": 2,
+    "name": "Plank",
+    "img": "https://images.unsplash.com/photo-1606170750739-460f27c2d30d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGxhbmslMjBleGVyY2lzZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60",
+    "descp": "The plank is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+    "time": 20
+  },
+  {
+    "id": 3,
+    "name": "Pull Up",
+    "img": "https://media.istockphoto.com/photos/challenge-picture-id854068016?b=1&k=20&m=854068016&s=170667a&w=0&h=J9BhALSQkmycb5XBdxXI-CBhWWL9MBBL749wdOzaqWQ=",
+    "descp": "an exercise in which one hangs by the hands from a support and pulls oneself up until the chin is level with the support specifically",
+    "time": 30
+  },
+  {
+    "id": 4,
+    "name": "Squats",
+    "img": "https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNxdWF0cyUyMGV4ZXJjaXNlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "Squats is an exercise in which the movement strengthens your tendons, bones, and ligaments around the leg muscles get strengthen.",
+    "time": 40
+  },
+  {
+    "id": 5,
+    "name": "Dumble",
+    "img": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZHVtYmxlJTIwZXhlcmNpc2V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "Dumbbells typically offer a better range of motion than barbells, allowing you to build even more strength in the pectoral area.",
+    "time": 50
+  },
+  {
+    "id": 6,
+    "name": "Chin Up",
+    "img": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbiUyMHVwJTIwZ3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "The chin up is a variation of the pull up and an exercise used to build the muscles of the back - particularly the lats.",
+    "time": 40
+  },
+  {
+    "id": 7,
+    "name": "Cardio",
+    "img": "https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyZGlvJTIwZXhlcmNpc2V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "Cardio exercise, which is sometimes referred to as aerobic exercise, is any rhythmic activity that raises your heart rate.",
+    "time": 30
+  },
+  {
+    "id": 8,
+    "name": "Lunges",
+    "img": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGx1bmdlcyUyMGV4ZXJjaXNlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "Lunges are exercises that you do to strengthen your leg muscles. They involve stepping forward with a bent leg while keeping the other leg straight.",
+    "time": 20
+  },
+  {
+    "id": 9,
+    "name": "Deadlifting",
+    "img": "https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRlYWRsaWZ0aW5nJTIwZXhlcmNpc2V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "descp": "A deadlift is a weight-lifting compound exercise that works your lower body and your upper body.",
+    "time": 10
+  }
+]
