@@ -51,6 +51,25 @@ const Body = () => {
                     </div>
                 </div>
                 <h3 className='margin2'>Add A Break</h3>
+                <div className='btn-container'>
+                    <button className='break-btn'>10</button>
+                    <button className='break-btn'>20</button>
+                    <button className='break-btn'>30</button>
+                    <button className='break-btn'>40</button>
+                    <button className='break-btn'>50</button>
+                </div>
+                <h3 className='margin3'>Exercise Detail</h3>
+                <div className='detail-container'>
+<div className='color'>
+    <h4 className='margin'>Exercise time &nbsp; &nbsp; &nbsp; &nbsp; seconds</h4>
+</div>
+<div className='color'>
+    <h4 className='margin'>Break time &nbsp; &nbsp; &nbsp; &nbsp; seconds</h4>
+</div>
+                </div>
+                <div>
+                    <button className='complete-btn'>Activity Complete</button>
+                </div>
             </div>
         </div>
     );
