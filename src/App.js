@@ -5,6 +5,7 @@ import Body from './components/Body/Body';
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
+import Qna from './components/Qna/Qna';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
 <Navbar></Navbar>
 <Body></Body>
+<Qna></Qna>
     </div>
   );
 }
