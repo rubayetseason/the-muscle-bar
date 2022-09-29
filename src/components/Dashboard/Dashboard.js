@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Dashboard.css'
 import Swal from 'sweetalert2'
 const Dashboard = (props) => {
@@ -7,7 +7,19 @@ const Dashboard = (props) => {
 const [breakTime, setBreakTime] = useState(0);
 const addBreak = (value) => {
     setBreakTime(value);
+    const storedData = localStorage.getItem('value');
+    if(!storedData){
+        localStorage.setItem('value', value);
+    }
+    else{
+        localStorage.setItem('value', value);
 }
+}
+useEffect(() => {
+    const number = localStorage.getItem('value');
+    setBreakTime(number);
+},[]);
+   
 
 const complete = () => {
     Swal.fire(
@@ -16,8 +28,6 @@ const complete = () => {
         'success'
       )
 };
-
-
 
 
     return (
@@ -60,7 +70,7 @@ const complete = () => {
                     <h4 className='margin'>Exercise time &nbsp; &nbsp; {info} seconds</h4>
                 </div>
                 <div className='color'>
-                    <h4 className='margin'>Break time &nbsp; &nbsp; {breakTime} seconds</h4>
+                    <h4 className='margin'>Break time &nbsp; &nbsp; {breakTime? breakTime : 0} seconds</h4>
                 </div>
             </div>
             <div>
