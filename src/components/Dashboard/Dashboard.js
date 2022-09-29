@@ -3,9 +3,9 @@ import './Dashboard.css'
 const Dashboard = (props) => {
     const {info} = props;
 
-// const [breakTime, setBreakTime] = useState(0);
-const addBreak = () => {
-    console.log(1);
+const [breakTime, setBreakTime] = useState(0);
+const addBreak = (value) => {
+    setBreakTime(value);
 }
 
     return (
@@ -36,11 +36,11 @@ const addBreak = () => {
             </div>
             <h3 className='margin2'>Add A Break</h3>
             <div className='btn-container'>
-                <button onClick={addBreak} className='break-btn'>10</button>
-                <button  className='break-btn'>20</button>
-                <button  className='break-btn'>30</button>
-                <button  className='break-btn'>40</button>
-                <button  className='break-btn'>50</button>
+                <button onClick={() => addBreak(10)} className='break-btn'>10</button>
+                <button onClick={() => addBreak(20)} className='break-btn'>20</button>
+                <button onClick={() => addBreak(30)} className='break-btn'>30</button>
+                <button onClick={() => addBreak(40)} className='break-btn'>40</button>
+                <button onClick={() => addBreak(50)} className='break-btn'>50</button>
             </div>
             <h3 className='margin3'>Exercise Detail</h3>
             <div className='detail-container'>
@@ -48,7 +48,7 @@ const addBreak = () => {
                     <h4 className='margin'>Exercise time &nbsp; &nbsp; {info} seconds</h4>
                 </div>
                 <div className='color'>
-                    <h4 className='margin'>Break time &nbsp; &nbsp; &nbsp; &nbsp; seconds</h4>
+                    <h4 className='margin'>Break time &nbsp; &nbsp; {breakTime} seconds</h4>
                 </div>
             </div>
             <div>
