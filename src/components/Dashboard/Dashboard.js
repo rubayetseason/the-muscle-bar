@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Dashboard.css'
+import Swal from 'sweetalert2'
 const Dashboard = (props) => {
     const {info} = props;
 
@@ -7,6 +8,17 @@ const [breakTime, setBreakTime] = useState(0);
 const addBreak = (value) => {
     setBreakTime(value);
 }
+
+const complete = () => {
+    Swal.fire(
+        'Congrats from The Muscle Bar!',
+        'You successfully done the activities!',
+        'success'
+      )
+};
+
+
+
 
     return (
         <div>
@@ -52,7 +64,7 @@ const addBreak = (value) => {
                 </div>
             </div>
             <div>
-                <button className='complete-btn'>Activity Complete</button>
+                <button onClick={complete} className='complete-btn'>Activity Complete</button>
             </div>
         </div>
     );
