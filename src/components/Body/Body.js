@@ -5,6 +5,8 @@ import Exercise from '../Exercise/Exercise';
 import Dashboard from '../Dashboard/Dashboard';
 const Body = () => {
     const [exercises, setExercises] = useState([]);
+    const [info, setInfo] = useState(0);
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -12,7 +14,7 @@ const Body = () => {
     }, []);
 
     const addbtn = (exercise) => {
-        console.log(exercise);
+        setInfo(exercise);
     }
 
     return (
@@ -33,7 +35,7 @@ const Body = () => {
                 </div>
             </div>
             <div>
-               <Dashboard></Dashboard>
+                <Dashboard info={info}></Dashboard>
             </div>
         </div>
     );
