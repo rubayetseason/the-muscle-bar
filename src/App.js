@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
 import Qna from './components/Qna/Qna';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 <Navbar></Navbar>
 <Body></Body>
 <Qna></Qna>
+<Footer></Footer>
     </div>
   );
 }
