@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import './Dashboard.css'
 const Dashboard = (props) => {
-    const { info } = props;
+    const {info} = props;
 
-    console.log(info);
+// const [breakTime, setBreakTime] = useState(0);
+const addBreak = () => {
+    console.log(1);
+}
+
     return (
         <div>
             <h3 className='center'>Dashboard</h3>
@@ -32,16 +36,16 @@ const Dashboard = (props) => {
             </div>
             <h3 className='margin2'>Add A Break</h3>
             <div className='btn-container'>
-                <button className='break-btn'>10</button>
-                <button className='break-btn'>20</button>
-                <button className='break-btn'>30</button>
-                <button className='break-btn'>40</button>
-                <button className='break-btn'>50</button>
+                <button onClick={addBreak} className='break-btn'>10</button>
+                <button  className='break-btn'>20</button>
+                <button  className='break-btn'>30</button>
+                <button  className='break-btn'>40</button>
+                <button  className='break-btn'>50</button>
             </div>
             <h3 className='margin3'>Exercise Detail</h3>
             <div className='detail-container'>
                 <div className='color'>
-                    <h4 className='margin'>Exercise time &nbsp; &nbsp; &nbsp;{info} seconds</h4>
+                    <h4 className='margin'>Exercise time &nbsp; &nbsp; {info} seconds</h4>
                 </div>
                 <div className='color'>
                     <h4 className='margin'>Break time &nbsp; &nbsp; &nbsp; &nbsp; seconds</h4>

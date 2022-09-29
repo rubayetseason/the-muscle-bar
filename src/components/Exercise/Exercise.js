@@ -4,6 +4,7 @@ import './Exercise.css'
 
 const Exercise = ({exercise , addbtn}) => {
     const {name, img, descp, time} = exercise;
+
     return (
         <div className='item' data-aos="fade-up">
             <img src={img} className="item-img" />

@@ -7,14 +7,18 @@ const Body = () => {
     const [exercises, setExercises] = useState([]);
     const [info, setInfo] = useState(0);
 
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setExercises(data))
+
     }, []);
 
-    const addbtn = (exercise) => {
-        setInfo(exercise);
+    let newTime = 0;
+    const addbtn = (time) => {
+        newTime = info + time;
+        setInfo(newTime);
     }
 
     return (
